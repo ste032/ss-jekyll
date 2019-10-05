@@ -1,0 +1,36 @@
+# site settings
+title: Stefano Spalletta
+subtitle: A Portfolio
+email: me at mail dot com
+description: DEVOPS? CLOUD? What do you mean "not enough automation"?!<br /> (I also wish I were a web designer, this would have been a lot easier!)
+baseurl: "/forty-jekyll-theme/" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+#author: Ste
+#street_address: 1234 Somewhere Road
+#city: Rome
+#state: Italy
+#zip_code:
+#country:
+#phone:
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 3
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/ste032
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/
+pinterest_url:
+slack_url:
+twitter_url:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
