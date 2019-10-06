@@ -2,8 +2,9 @@
 title: Stefano Spalletta
 subtitle: A Portfolio
 email: me at mail dot com
-description: DEVOPS? CLOUD? What do you mean "not enough automation"?!<br /> (I also wish I were a web designer, this would have been a lot easier!)
-baseurl: "/forty-jekyll-theme/" # the subpath of your site, e.g. /blog
+description: DEVOPS? CLOUD? What do you mean "not enough automation"?!<br />
+#baseurl: "/forty-jekyll-theme/" # the subpath of your site, e.g. /blog
+baseurl:
 url: # the base hostname & protocol for your site
 #author: Ste
 #street_address: 1234 Somewhere Road
