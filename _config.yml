@@ -5,7 +5,7 @@ email: me at mail dot com
 description: DEVOPS? CLOUD? What do you mean "not enough automation"?!<br />
 #baseurl: "/forty-jekyll-theme/" # the subpath of your site, e.g. /blog
 baseurl:
-url: # the base hostname & protocol for your site
+url: https://stespa.com # the base hostname & protocol for your site
 #author: Ste
 #street_address: 1234 Somewhere Road
 #city: Rome
