@@ -16,7 +16,7 @@ url: https://stespa.com # the base hostname & protocol for your site
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 3
+tiles-count: 2
 
 # social settings
 500px_url:
