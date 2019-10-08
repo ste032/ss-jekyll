@@ -2,7 +2,7 @@
 layout: post
 title: How I created this site
 description: Tools and tech used for the job
-image: assets/images/pic06.jpg
+image: assets/images/s1.jpg
 ---
 
 There are many ways to build and deploy a website these days, plenty of technologies to use and learn, unfortunately trying to get into it with close-to-zero knowledge can be daunting.
@@ -31,15 +31,19 @@ I have always been intrigued by web development and design, so this was the chan
 
 This is the idea:
 
-1. **AWS Route53** to buy a domain name;
-2. **AWS S3** to host Jekyll-built site;
-3. **AWS CloudFront** to cache and deliver the bucket content worldwide.
+1. **AWS Route53** to buy a domain name and manage its DNS;
+2. **AWS S3** to host the Jekyll-built site;
+3. **AWS Certificate Manager** to create a valid certificate;
+3. **AWS CloudFront** to serve HTTPS and deliver a cached versoin of the content worldwide.
 
 
 
 
 
 
+Credits:
+
+Photo by Maik Jonietz on Unsplash
 
 <h3>CircleCI</h3>
 
