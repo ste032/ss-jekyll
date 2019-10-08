@@ -2,7 +2,7 @@
 layout: post
 title: How I created this site
 description: Tools and tech used for the job
-image: assets/images/s1.jpg
+image: assets/images/s7.jpg
 ---
 
 There are many ways to build and deploy a website these days, plenty of technologies to use and learn, unfortunately trying to get into it with close-to-zero knowledge can be daunting.
@@ -44,6 +44,8 @@ This is the idea:
 Credits:
 
 Photo by Maik Jonietz on Unsplash
+
+Photo by Michael Weidner on Unsplash
 
 <h3>CircleCI</h3>
 
