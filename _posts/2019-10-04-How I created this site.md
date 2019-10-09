@@ -33,8 +33,9 @@ This is the idea:
 
 <center>
   <span class="image"><img src="/assets/images/infra1.png" alt="" /></span>
+  Created using <a href="https://cloudcraft.co">CloudCraft</a>.
 </center>
-
+<br>
 1. **AWS Route53** for the domain name and manage its DNS;
 2. **AWS S3** to host the Jekyll-built site;
 3. **AWS Certificate Manager** to issue a valid certificate;
@@ -43,7 +44,10 @@ This is the idea:
 
 Some insights: the website will respond to both www.domain.com and domain.com requests thanks to specific Route53 and S3 configurations. Every HTTP request will be redirected to HTTPS and also be served with a valid certificate. The end-user will access the content via Cloudfront distribution rather than the S3 buckets.
 
+I expect this site to never go past AWS free tier, so the total cost will be a mere $15/year for the domain.
 
+
+I might make an indepth post that go into the nitty-gritty of making this site down the road, but honestly the AWS documentation is plenty to get started with a basic static site.
 
 <h3>CircleCI</h3>
 
