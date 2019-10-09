@@ -16,7 +16,7 @@ To make things easier and quicker on myself I picked a theme among a plethora of
 
 
 <h3>GitHub</h3>
-Although I don't use it as much for my day to day work-flows, GitHub was a no brainer for this project. I created a private repository and synced Jekyll's work directories in it, both for simplicity's sake and to take advantage of CircleCI automation to later deploy the site to a web host.
+Although I don't use it as much for my day to day work-flows, GitHub was a no brainer for this project. I created a private repository and synced Jekyll's work directories in it, both for simplicity's sake and to take advantage of a future and possible implementation of CircleCI.
 <br>Honorable mention to <a href="https://atom.io">Atom</a> (+ *emmet_essentials* addon), an awesome text editor that makes writing code and integrating with GitHub a breeze.
 
 
@@ -35,22 +35,21 @@ This is the idea:
   <span class="image"><img src="/assets/images/infra1.png" alt="" /></span>
 </center>
 
-1. **AWS Route53** to buy a domain name and manage its DNS;
+1. **AWS Route53** for a domain name and manage its DNS;
 2. **AWS S3** to host the Jekyll-built site;
 3. **AWS Certificate Manager** to create a valid certificate;
 3. **AWS CloudFront** to serve HTTPS and deliver a cached version of the content worldwide.
 
 
+Some insights: the website will respond to both www.domain.com and domain.com requests thanks to specific Route53 and S3 configurations. Every HTTP request will be redirected to HTTPS and also be served with a valid certificate. The end-user will access the content via Cloudfront distribution rather than the S3 buckets.
 
 
-
-
-Credits:
-
-Photo by Maik Jonietz on Unsplash
-
-Photo by Michael Weidner on Unsplash
 
 <h3>CircleCI</h3>
 
 To be Implemented
+
+
+<div class="box">
+Credits: Photos by Maik Jonietz, Michael Weidner, dhe haivan, Bryan Goff on Unsplash
+</div>
