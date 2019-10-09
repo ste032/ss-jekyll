@@ -35,9 +35,9 @@ This is the idea:
   <span class="image"><img src="/assets/images/infra1.png" alt="" /></span>
 </center>
 
-1. **AWS Route53** for a domain name and manage its DNS;
+1. **AWS Route53** for the domain name and manage its DNS;
 2. **AWS S3** to host the Jekyll-built site;
-3. **AWS Certificate Manager** to create a valid certificate;
+3. **AWS Certificate Manager** to issue a valid certificate;
 3. **AWS CloudFront** to serve HTTPS and deliver a cached version of the content worldwide.
 
 
